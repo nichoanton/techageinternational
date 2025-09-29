@@ -1,0 +1,153 @@
+import React from "react";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhone,
+} from "react-icons/fa";
+import logo from "../assets/logo/logo_transparent.png";
+
+const Footer = () => {
+  return (
+    <footer className="bg-gray-900 text-white py-10">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-4">
+        {/* Section 1: Logo and Description */}
+        <div className="space-y-4">
+          <div className="text-3xl font-serif font-bold text-textgold ">
+            <img
+              src={logo}
+              alt="SMK Decors Logo"
+              className="h-24 w-auto logo-theme"
+              loading="lazy"
+            />
+          </div>
+          <h2 className="text-lg font-semibold">
+            Regn No.: B-0668/Chennai/Part/1000+/5/8936/2013
+          </h2>
+          <p className="text-gray-300 text-justify">
+            ISO 9001 : 2015 Certified
+          </p>
+          <div className="flex space-x-4 mt-4">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#F1C27D] hover:text-[#F1C27D]"
+            >
+              <FaInstagram size={24} />
+            </a>
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#F1C27D] hover:text-[#F1C27D]"
+            >
+              <FaFacebook size={24} />
+            </a>
+          </div>
+        </div>
+
+        {/* Section 2: Quick Links */}
+        <div className="pl-0 sm:pl-12">
+          <h3 className="text-lg font-semibold mb-4 text-orange-600">Quick Links</h3>
+          <ul className="space-y-2 text-gray-300">
+            <li>
+              <a href="/home" className="hover:text-[#F1C27D]">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/aboutus" className="hover:text-[#F1C27D]">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="/ourteam" className="hover:text-[#F1C27D]">
+                Our Team
+              </a>
+            </li>
+            <li>
+              <a href="/services" className="hover:text-[#F1C27D]">
+                Services
+              </a>
+            </li>
+           
+            <li>
+              <a href="/clientdetails" className="hover:text-[#F1C27D]">
+                Client Details
+              </a>
+            </li>
+            <li>
+              <a href="/rainformation" className="hover:text-[#F1C27D]">
+                RA Information
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Section 3: Services */}
+        <div>
+          <h3 className="text-lg font-semibold mb-4 text-orange-600">Our Services</h3>
+          <ul className="space-y-2 text-gray-300">
+            <li>
+              <a href="/services/oil-gas" className="hover:text-[#F1C27D]">
+                Oil & Gas
+              </a>
+            </li>
+            <li>
+              <a href="/services/engineering" className="hover:text-[#F1C27D]">
+                Engineering Industries
+              </a>
+            </li>
+            <li>
+              <a href="/services/construction" className="hover:text-[#F1C27D]">
+                Civil Construction & MEP
+              </a>
+            </li>
+            <li>
+              <a href="/services/facility" className="hover:text-[#F1C27D]">
+                Facility Management
+              </a>
+            </li>
+            <li>
+              <a href="/services/healthcare" className="hover:text-[#F1C27D]">
+                Health Care
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Section 4: Contact Information */}
+        <div>
+          <h3 className="text-lg font-semibold mb-4 text-orange-600">Contact Us</h3>
+          <div className="flex items-center mb-2">
+            <FaMapMarkerAlt className="text-[#F1C27D] mr-4" />
+            <p className="text-gray-300 pl-3">
+              Plot No. 41, Door No.2, 3rd Cross Street, Brindhavan Nagar,
+              Valasaravakkam, Chennai - 600 087, India.
+            </p>
+          </div>
+          <div className="flex items-center mb-2">
+            <FaEnvelope className="text-[#F1C27D] mr-2" />
+            <p className="text-gray-300 pl-3">
+              Email: hr@techageinternational.in
+            </p>
+          </div>
+          <div className="flex items-center mb-2">
+            <FaPhone className="text-[#F1C27D] mr-2" />
+            <p className="text-gray-300 pl-3">Phone: +91 44 4335 6128</p>
+          </div>
+        </div>
+      </div>
+      <div className="text-center text-gray-400 mt-10 flex justify-between ml-5 mr-5">
+        <div className="p-2 sm:p-0"></div>
+        <div className="p-2 sm:p-0">
+          © {new Date().getFullYear()} Tech Age International. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
