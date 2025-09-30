@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FiMenu, FiX, FiChevronDown  } from "react-icons/fi";
 import TopBar from "./TopBar";
 import logo from "../assets/logo/logo_transparent.png";
@@ -7,6 +7,7 @@ import logo from "../assets/logo/logo_transparent.png";
 const Navbar = ({ isTopBarVisible }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -14,6 +15,19 @@ const Navbar = ({ isTopBarVisible }) => {
 
   const closeDropdown = () => {
     setIsDropdownOpen(false);
+  };
+
+   const handleServiceClick = (serviceId) => {
+    navigate('/services');
+    
+    setTimeout(() => {
+      const element = document.getElementById(serviceId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+      setIsDropdownOpen(false);
+      setIsMobileMenuOpen(false);
+    }, 100);
   };
 
   return (
@@ -90,54 +104,49 @@ const Navbar = ({ isTopBarVisible }) => {
               </NavLink>
               <span className="inline-block ml-1 transform translate-y-1"><FiChevronDown /></span>
               {isDropdownOpen && (
-                <div className="absolute top-full left-0 mt-5 theme-text-bg rounded-md shadow-lg w-56 z-10">
+                <div className="absolute top-full left-0 mt-5 theme-text-bg rounded-b-xl shadow-lg w-56 z-10">
                   <ul>
                     <div className="h-1 w-full bg-[#EA580C]"></div>
                     <li>
-                      <NavLink
-                        to="/services/oil-gas"
-                        className="block px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
-                        onClick={closeDropdown}
+                       <button
+                        onClick={() => handleServiceClick('oil-gas')}
+                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
                       >
                         Oil & Gas
-                      </NavLink>
+                      </button>
                     </li>
                     <li>
-                      <NavLink
-                        to="/services/engineering"
-                        className="block px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
-                        onClick={closeDropdown}
+                       <button
+                        onClick={() => handleServiceClick('engineering')}
+                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
                       >
                         Engineering Industries
-                      </NavLink>
+                      </button>
                     </li>
 
                     <li>
-                      <NavLink
-                        to="/services/construction"
-                        className="block px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
-                        onClick={closeDropdown}
+                        <button
+                        onClick={() => handleServiceClick('civil-construction')}
+                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
                       >
                         Civil Construction & MEP
-                      </NavLink>
+                      </button>
                     </li>
                     <li>
-                      <NavLink
-                        to="/services/facility"
-                        className="block px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
-                        onClick={closeDropdown}
+                      <button
+                        onClick={() => handleServiceClick('facility-management')}
+                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
                       >
                         Facility Management
-                      </NavLink>
+                      </button>
                     </li>
                     <li>
-                      <NavLink
-                        to="/services/healthcare"
-                        className="block px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:font-semibold transition-colors duration-200"
-                        onClick={closeDropdown}
+                       <button
+                        onClick={() => handleServiceClick('health-care')}
+                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:rounded-b-xl hover:font-semibold transition-colors duration-200"
                       >
                         Health Care
-                      </NavLink>
+                      </button>
                     </li>
                   </ul>
                 </div>

@@ -10,26 +10,26 @@ const HeroSection = () => {
         backgroundPosition: "right 20%",
       }}
     >
-      <div className="h-full flex items-center justify-center">
-        <div className="px-4 w-full max-w-4xl">
-          <div className="mx-auto text-center">
-            {/* Main heading - responsive for mobile */}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+      <div className="h-full flex items-center justify-start">
+        <div className="px-8 w-full max-w-6xl">
+          <div className="mx-auto text-center md:text-left">
+            {/* Main heading - centered on mobile, left on desktop */}
+            <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-gray-900 leading-tight">
               Welcome to{" "}
-              <span className="text-orange-600 block sm:inline-block mt-1 sm:mt-0">
+              <span className="text-orange-600 block mt-2">
                 TECH AGE INTERNATIONAL
               </span>
             </h1>
 
             {/* Subheading */}
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-700 leading-relaxed mb-6 sm:mb-8">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
               Connecting talent with opportunity
             </p>
 
             {/* CTA button */}
             <a
               href="/services"
-              className="inline-block px-4 py-2 sm:px-6 sm:py-3 button-theme rounded-full transition text-sm sm:text-base"
+              className="inline-block px-6 py-3 sm:px-8 sm:py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition duration-300 shadow-lg hover:shadow-xl text-base sm:text-lg mx-auto md:mx-0"
             >
               Explore Services
             </a>

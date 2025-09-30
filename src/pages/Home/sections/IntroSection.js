@@ -1,33 +1,13 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { useSpring, animated } from "@react-spring/web";
 
-import techEvolutionImg from "../../../assets/bg/bg.png";
-import modernTechImg from "../../../assets/logo/logo.png";
-import automationImg from "../../../assets/bg/bg.png";
+import techEvolutionImg from "../../../assets/home_pics/home3.jpg";
+import modernTechImg from "../../../assets/home_pics/home2.jpg";
+import automationImg from "../../../assets/home_pics/home1.webp";
 
 const IntroSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, threshold: 0.1 });
-
-  const fadeInUp = {
-    initial: { opacity: 0, y: 60 },
-    animate: { opacity: 1, y: 0 },
-    transition: { duration: 0.8, ease: "easeOut" },
-  };
-
-  const slideInLeft = {
-    initial: { opacity: 0, x: -60 },
-    animate: { opacity: 1, x: 0 },
-    transition: { duration: 0.8, ease: "easeOut" },
-  };
-
-  const slideInRight = {
-    initial: { opacity: 0, x: 60 },
-    animate: { opacity: 1, x: 0 },
-    transition: { duration: 0.8, ease: "easeOut" },
-  };
-
   return (
     <section ref={ref} className="py-16 px-4 bg-white">
       <div className="max-w-6xl mx-auto">

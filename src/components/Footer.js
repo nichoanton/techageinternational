@@ -6,9 +6,23 @@ import {
   FaEnvelope,
   FaPhone,
 } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo/logo_transparent.png";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleServiceClick = (serviceId) => {
+    navigate('/services');
+    
+    setTimeout(() => {
+      const element = document.getElementById(serviceId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
+
   return (
     <footer className="bg-gray-900 text-white py-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-4">
@@ -17,7 +31,7 @@ const Footer = () => {
           <div className="text-3xl font-serif font-bold text-textgold ">
             <img
               src={logo}
-              alt="SMK Decors Logo"
+              alt="Tech Age International Logo"
               className="h-24 w-auto logo-theme"
               loading="lazy"
             />
@@ -91,29 +105,44 @@ const Footer = () => {
           <h3 className="text-lg font-semibold mb-4 text-orange-600">Our Services</h3>
           <ul className="space-y-2 text-gray-300">
             <li>
-              <a href="/services/oil-gas" className="hover:text-[#F1C27D]">
+              <button 
+                onClick={() => handleServiceClick('oil-gas')} 
+                className="hover:text-[#F1C27D] text-left w-full"
+              >
                 Oil & Gas
-              </a>
+              </button>
             </li>
             <li>
-              <a href="/services/engineering" className="hover:text-[#F1C27D]">
+              <button 
+                onClick={() => handleServiceClick('engineering')} 
+                className="hover:text-[#F1C27D] text-left w-full"
+              >
                 Engineering Industries
-              </a>
+              </button>
             </li>
             <li>
-              <a href="/services/construction" className="hover:text-[#F1C27D]">
+              <button 
+                onClick={() => handleServiceClick('civil-construction')} 
+                className="hover:text-[#F1C27D] text-left w-full"
+              >
                 Civil Construction & MEP
-              </a>
+              </button>
             </li>
             <li>
-              <a href="/services/facility" className="hover:text-[#F1C27D]">
+              <button 
+                onClick={() => handleServiceClick('facility-management')} 
+                className="hover:text-[#F1C27D] text-left w-full"
+              >
                 Facility Management
-              </a>
+              </button>
             </li>
             <li>
-              <a href="/services/healthcare" className="hover:text-[#F1C27D]">
+              <button 
+                onClick={() => handleServiceClick('health-care')} 
+                className="hover:text-[#F1C27D] text-left w-full"
+              >
                 Health Care
-              </a>
+              </button>
             </li>
           </ul>
         </div>

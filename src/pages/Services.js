@@ -1,18 +1,24 @@
-import React from "react";
 import ServicesLinks from "../components/ServiceLinks";
+import OilAndGas from "./ServicesPage/OilAndGas";
+import EngineeringIndustries from "./ServicesPage/Engineering";
+import CivilConstructionMEP from "./ServicesPage/Civil";
+import FacilityManagement from "./ServicesPage/Facility";
+import HealthCare from "./ServicesPage/Healthcare";
 
 const Services = () => {
   return (
     <div className="pt-16">
       {/* Solid Hero Section */}
-      <div className="relative bg-gradient-to-r from-blue-900 to-blue-700 h-64 flex items-center justify-center">
-        <div className="text-center text-white px-4">
+      <div className="relative bg-gradient-to-r from-blue-900 to-blue-800 py-20 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black opacity-20"></div>
+        <div className="relative text-center text-white px-4 max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Our Recruitment Services
           </h1>
-          <p className="text-xl md:text-2xl opacity-90">
+          <p className="text-xl md:text-2xl opacity-90 mb-4">
             Comprehensive Manpower Solutions for Global Industries
           </p>
+          <div className="w-24 h-1 bg-blue-400 mx-auto mt-6"></div>
         </div>
       </div>
 
@@ -21,7 +27,7 @@ const Services = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content - 2/3 Column */}
           <div className="lg:col-span-2">
-            {/* Scope of Services Section */}
+            {/* Existing Content - Scope of Services */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center">
                 <div className="w-3 h-8 bg-orange-600 mr-4"></div>
@@ -55,7 +61,7 @@ const Services = () => {
               </div>
             </section>
 
-            {/* Recruiting Services Section */}
+            {/* Existing Content - Recruiting Services */}
             <section className="mb-12">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center">
                 <div className="w-3 h-8 bg-green-600 mr-4"></div>
@@ -112,8 +118,8 @@ const Services = () => {
               </div>
             </section>
 
-            {/* Process Section */}
-            <section>
+            {/* Existing Content - Process Section */}
+            <section className="mb-16">
               <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center">
                 <div className="w-3 h-8 bg-orange-600 mr-4"></div>
                 Our Recruitment Process
@@ -178,11 +184,19 @@ const Services = () => {
                 </div>
               </div>
             </section>
+
+            <OilAndGas />
+            <EngineeringIndustries />
+            <CivilConstructionMEP />
+            <FacilityManagement />
+            <HealthCare />
           </div>
 
-          {/* Services Links - 1/3 Column */}
-          <div className="flex justify-center lg:justify-start">
-            <ServicesLinks />
+          {/* Services Links - 1/3 Column - Fixed on scroll */}
+          <div className="relative">
+            <div className="sticky top-24 flex justify-center lg:justify-start">
+              <ServicesLinks />
+            </div>
           </div>
         </div>
       </div>

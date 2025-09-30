@@ -9,8 +9,9 @@ import Footer from "./components/Footer";
 import AboutUs from "./pages/AboutUs";
 import OurTeam from "./pages/OurTeam";
 import Services from "./pages/Services";
-import OilAndGas from "./pages/ServicesPage/OilAndGas";
-import EngineeringIndustries from "./pages/ServicesPage/Engineering";
+import ClientDetails from "./pages/Clients";
+import RAInformation from "./pages/RAInformation";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   const [isTopBarVisible, setIsTopBarVisible] = useState(true);
@@ -38,10 +39,9 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/ourteam" element={<OurTeam />} />
         <Route path="/services" element={<Services />} />
-
-         {/* Services Routes */}
-        <Route path="/services/oil-gas" element={<OilAndGas />} />
-        <Route path="/services/engineering" element={<EngineeringIndustries />} />
+        <Route path="/clientdetails" element={<ClientDetails />} />
+        <Route path="/rainformation" element={<RAInformation />} />
+        <Route path="/contactus" element={<ContactUs />} />
 
         <Route path="*" element={<Home />} />
       </Routes>
