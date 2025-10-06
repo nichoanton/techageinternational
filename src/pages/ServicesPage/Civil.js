@@ -26,7 +26,7 @@ const CivilConstructionMEP = () => {
           Comprehensive Construction & MEP Workforce Solutions
         </h3>
 
-        <p className="text-gray-700 leading-relaxed mb-6">
+        <p className="text-gray-700 leading-relaxed mb-6 text-justify">
           We provide skilled professionals across all disciplines of civil construction and MEP 
           (Mechanical, Electrical, and Plumbing) sectors, ensuring qualified manpower for every 
           aspect of your construction projects.
@@ -38,7 +38,7 @@ const CivilConstructionMEP = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-4">
               PROFESSIONAL ROLES
             </h4>
-            <p className="text-gray-700 leading-relaxed mb-4">
+            <p className="text-gray-700 leading-relaxed mb-4 text-justify">
               Our comprehensive workforce includes qualified Engineers, experienced Foremen, 
               dedicated Supervisors, skilled Masons, Carpenters, Steel Fixers, Electricians, 
               Plumbers, Civil Scaffolders, Duct Erectors and Fabricators, and specialized 
@@ -65,7 +65,7 @@ const CivilConstructionMEP = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               SERVICE COVERAGE
             </h4>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-justify">
               Complete workforce solutions for civil construction projects and MEP systems 
               installation, maintenance, and commissioning across residential, commercial, 
               and industrial sectors.

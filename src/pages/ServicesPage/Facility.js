@@ -26,7 +26,7 @@ const FacilityManagement = () => {
           Comprehensive Facility Management Staffing Solutions
         </h3>
 
-        <p className="text-gray-700 leading-relaxed mb-6">
+        <p className="text-gray-700 leading-relaxed mb-6 text-justify">
           We provide skilled and semi-skilled personnel for comprehensive facility management 
           services, ensuring smooth operations and maintenance of commercial, residential, 
           and industrial facilities.
@@ -79,7 +79,7 @@ const FacilityManagement = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               SERVICE AREAS
             </h4>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-justify">
               Our facility management personnel serve across various sectors including corporate offices, 
               residential complexes, industrial facilities, educational institutions, healthcare facilities, 
               and hospitality establishments.
@@ -91,7 +91,7 @@ const FacilityManagement = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               SUPPORT SERVICES
             </h4>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-justify">
               Comprehensive support services covering food and beverage operations, housekeeping, 
               laundry services, office support, and general maintenance to ensure optimal facility 
               operations and occupant comfort.

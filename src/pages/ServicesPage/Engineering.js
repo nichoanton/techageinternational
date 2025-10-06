@@ -13,7 +13,7 @@ const EngineeringIndustries = () => {
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
-          
+
           <div className="relative z-10 text-center">
             <h2 className="text-white text-2xl md:text-3xl font-bold mb-2">
               ENGINEERING INDUSTRIES
@@ -26,10 +26,18 @@ const EngineeringIndustries = () => {
           Comprehensive Engineering Solutions
         </h3>
 
-        <p className="text-gray-700 leading-relaxed mb-6">
-          We provide specialized engineering expertise across projects and maintenance operations, 
-          offering flexible workforce solutions for long-term, short-term, and shutdown job requirements 
-          in diverse industrial sectors.
+        <p className="text-gray-700 leading-relaxed mb-6 text-justify">
+          Engineering Industries plays a vital role, especially fabricating
+          heavy steel structures like columns and vessels, pipelines and other
+          heavy industries like small to large motors, pumps, transformers,
+          automotive, ship building etc., We have diff. graded welders,
+          fabricators, fitters, Riggers, Scaffolders Grinders, Gas Cutters MWF,
+          Sand Blasters, Spray Painters etc., in the Technician, Foreman and
+          Supervisors categories and Engineers of Design, Estimation,
+          Procurement, Contract, QA&QC Inspectors, Shop/Site Engineers and
+          Superintendents. Tech Age International has wide experience in
+          recruiting these type of Manpower. Our CV bank contains good quality
+          and efficient candidates with a better workman ship.
         </p>
 
         <div className="space-y-6">
@@ -38,10 +46,11 @@ const EngineeringIndustries = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               PROJECTS & MAINTENANCE
             </h4>
-            <p className="text-gray-700 leading-relaxed">
-              Comprehensive project execution and maintenance services tailored to meet 
-              the dynamic needs of engineering industries, ensuring operational excellence 
-              and project delivery within specified timelines and quality standards.
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Comprehensive project execution and maintenance services tailored
+              to meet the dynamic needs of engineering industries, ensuring
+              operational excellence and project delivery within specified
+              timelines and quality standards.
             </p>
           </div>
 
@@ -50,9 +59,9 @@ const EngineeringIndustries = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               EMPLOYMENT SOLUTIONS
             </h4>
-            <p className="text-gray-700 leading-relaxed">
-              Flexible workforce deployment including Long Term assignments, 
-              Short Term projects, and specialized Shutdown Jobs to meet varying 
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Flexible workforce deployment including Long Term assignments,
+              Short Term projects, and specialized Shutdown Jobs to meet varying
               project demands and operational requirements.
             </p>
           </div>
@@ -62,10 +71,11 @@ const EngineeringIndustries = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               ENGINEERING PROFESSIONALS
             </h4>
-            <p className="text-gray-700 leading-relaxed">
-              Highly qualified Mechanical, Electrical & Instrumentation (E&I), and Civil Engineers 
-              specializing in Planning, Procurement, Design, Estimation, QA/QC, Rotary/Static 
-              equipment, and Health, Safety & Environment (HSE) management.
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Highly qualified Mechanical, Electrical & Instrumentation (E&I),
+              and Civil Engineers specializing in Planning, Procurement, Design,
+              Estimation, QA/QC, Rotary/Static equipment, and Health, Safety &
+              Environment (HSE) management.
             </p>
           </div>
 
@@ -74,20 +84,23 @@ const EngineeringIndustries = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               TECHNICAL WORKFORCE
             </h4>
-            <p className="text-gray-700 leading-relaxed">
-              Comprehensive technical teams including experienced Foremen and Technicians 
-              across all engineering disciplines. Our skilled workforce encompasses Welders, 
-              Fabricators, Fitters, Mill Wright Fitters, Riggers, Scaffolders, Grinders, 
-              Gas Cutters, and Engineering & General Helpers to support diverse project requirements.
+            <p className="text-gray-700 leading-relaxed text-justify">
+              Comprehensive technical teams including experienced Foremen and
+              Technicians across all engineering disciplines. Our skilled
+              workforce encompasses Welders, Fabricators, Fitters, Mill Wright
+              Fitters, Riggers, Scaffolders, Grinders, Gas Cutters, and
+              Engineering & General Helpers to support diverse project
+              requirements.
             </p>
           </div>
         </div>
 
         <div className="mt-8 p-6 bg-gray-50 rounded-lg border border-gray-200">
-          <p className="text-gray-700 leading-relaxed text-center italic">
-            Delivering exceptional engineering workforce solutions with expertise across all 
-            technical disciplines, ensuring project success and operational excellence through 
-            qualified professionals and skilled technicians.
+          <p className="text-gray-700 leading-relaxed text-center italic text-justify">
+            Delivering exceptional engineering workforce solutions with
+            expertise across all technical disciplines, ensuring project success
+            and operational excellence through qualified professionals and
+            skilled technicians.
           </p>
         </div>
       </section>

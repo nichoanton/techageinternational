@@ -2,6 +2,7 @@ import { FaCheckCircle, FaUsers, FaHandshake, FaAward, FaDatabase } from "react-
 import { Link } from "react-router-dom";
 import about from "../assets/aboutus/about1.jpg";
 import about2 from "../assets/aboutus/about2.jpg";
+import VisionMissionSection from "./Home/sections/VisionMissionSection";
 
 const AboutUs = () => {
   return (
@@ -80,8 +81,12 @@ const AboutUs = () => {
           </div>
         </div>
 
+
+        <VisionMissionSection />
+
+
         {/* Quality Policy */}
-        <div className="bg-gray-50 rounded-2xl p-8 md:p-12 mb-20">
+        <div className="bg-gray-50 rounded-2xl p-2 md:p-8 mb-10">
           <div className="text-center mb-12">
             <div className="flex justify-center mb-4">
               <div className="bg-orange-100 p-4 rounded-full">

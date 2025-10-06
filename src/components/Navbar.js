@@ -101,8 +101,8 @@ const Navbar = ({ isTopBarVisible }) => {
                 }
               >
                 Services 
-              </NavLink>
               <span className="inline-block ml-1 transform translate-y-1"><FiChevronDown /></span>
+              </NavLink>
               {isDropdownOpen && (
                 <div className="absolute top-full left-0 mt-5 theme-text-bg rounded-b-xl shadow-lg w-56 z-10">
                   <ul>
@@ -143,7 +143,7 @@ const Navbar = ({ isTopBarVisible }) => {
                     <li>
                        <button
                         onClick={() => handleServiceClick('health-care')}
-                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white hover:rounded-b-xl hover:font-semibold transition-colors duration-200"
+                        className="block w-full text-left px-4 py-2 text-[black] hover:bg-orangebg hover:text-white rounded-b-xl hover:font-semibold transition-colors duration-200"
                       >
                         Health Care
                       </button>

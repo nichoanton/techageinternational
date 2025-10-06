@@ -19,9 +19,10 @@ const IntroSection = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Embracing the <span className="text-orange-600">Tech Age</span>
+            Embracing the{" "}
+            <span className="text-orange-600">Tech Age International</span>
           </h2>
-          <div className="w-20 h-1 bg-orange-600 mx-auto"></div>
+          <div className="w-56 h-1 bg-orange-600 mx-auto"></div>
         </motion.div>
 
         {/* Content Grid */}
@@ -33,14 +34,13 @@ const IntroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="space-y-6"
           >
-            <p className="text-lg text-gray-700 leading-relaxed">
-              The word{" "}
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
               <span className="font-semibold text-orange-600">Tech Age</span>{" "}
-              itself reflects the new age of present modern technological
-              dependent livelihood. Though mankind started its journey from the
-              Stone Age, then slowly moved to the Metal Age, life became more
-              dependent on machines for day-to-day living, leading to a more
-              productive existence.
+              International is a renowned consultancy specializing in manpower
+              recruitment. We are a committed, all-in-one manpower recruitment
+              agency based in India, offering comprehensive services including
+              sourcing, selection, shortlisting, and recruitment for the
+              Engineering, Petrochemical, Oil & Gas, and Offshore industries.
             </p>
           </motion.div>
 
@@ -69,13 +69,12 @@ const IntroSection = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="relative lg:order-2"
           >
-             <p className="text-lg text-gray-700 leading-relaxed">
-              The present scenario is surrounded by huge technological
-              developments with continual improvements and changes, providing a
-              sophisticated and luxurious livelihood. Fully automatic production
-              sectors require less manpower but demand highly qualified and
-              multi-talented personalities to handle these developments and
-              achieve efficient output.
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
+              Our sincere and prompt efforts have allowed us to establish
+              ourselves as one of the most dependable and trustworthy
+              organizations in India. We have successfully provided personnel
+              with various skill levels, including highly skilled, skilled,
+              semi-skilled, and unskilled, across diverse regions.
             </p>
           </motion.div>
 
@@ -86,7 +85,6 @@ const IntroSection = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="space-y-6 lg:order-1"
           >
-           
             <img
               src={modernTechImg}
               alt="Modern Technological Developments"
@@ -110,9 +108,11 @@ const IntroSection = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40"></div>
           <div className="absolute bottom-8 left-8 text-white">
-            <h3 className="text-2xl font-bold mb-2">Automation & Efficiency</h3>
+            <h3 className="text-2xl font-bold mb-2">
+              Expert Manpower Deployment
+            </h3>
             <p className="text-lg">
-              Transforming industries through technological innovation
+              Delivering skilled workforce for engineering and energy sectors
             </p>
           </div>
         </motion.div>

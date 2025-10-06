@@ -35,7 +35,7 @@ const Services = () => {
               </h2>
 
               <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed text-justify">
                   Tech Age always renders the best of its services to our
                   Clients in all aspects starting from sourcing, short listing
                   and arranging for Telephone Interviews / Personal Interviews /
@@ -43,7 +43,7 @@ const Services = () => {
                   Candidates and the Clients.
                 </p>
 
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed text-justify">
                   We provide comprehensive follow-up for the selected Candidates
                   including medical check-ups, emigration related formalities,
                   travel arrangements, and deployment coordination until
@@ -51,7 +51,7 @@ const Services = () => {
                 </p>
 
                 <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <p className="text-lg text-gray-700 leading-relaxed text-justify">
                     We provide basic orientation to the selected Candidates
                     about the duties and responsibilities of their job, work
                     environment, and the rules and laws of the Company and
@@ -69,7 +69,7 @@ const Services = () => {
               </h2>
 
               <div className="space-y-6">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-gray-700 leading-relaxed text-justify">
                   We have an extensive database of interested candidates in each
                   field for different positions. Our robust network spans across
                   various professional portals and geographic regions, enabling

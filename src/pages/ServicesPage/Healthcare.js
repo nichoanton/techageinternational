@@ -26,7 +26,7 @@ const HealthCare = () => {
           Healthcare Staffing Solutions
         </h3>
 
-        <p className="text-gray-700 leading-relaxed mb-6">
+        <p className="text-gray-700 leading-relaxed mb-6 text-justify">
           We provide qualified healthcare professionals dedicated to delivering exceptional 
           patient care across various medical facilities and healthcare settings.
         </p>
@@ -58,7 +58,7 @@ const HealthCare = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               SERVICE COVERAGE
             </h4>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-justify">
               Our healthcare professionals serve across hospitals, clinics, nursing homes, 
               rehabilitation centers, home healthcare services, and long-term care facilities, 
               providing compassionate and professional patient care.
