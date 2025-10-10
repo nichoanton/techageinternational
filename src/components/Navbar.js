@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { FiMenu, FiX, FiChevronDown  } from "react-icons/fi";
 import TopBar from "./TopBar";
 import logo from "../assets/logo/logo_transparent.png";
@@ -175,12 +175,12 @@ const Navbar = ({ isTopBarVisible }) => {
           </div>
 
           {/* Contact Us Button - Hidden on mobile */}
-          <a
-            href="/contactus"
-            className="hidden xl:block px-6 py-2 button-theme rounded-full transition"
-          >
-            Contact Us
-          </a>
+           <Link
+              to="/contactus"
+              className="hidden xl:block px-6 py-2 button-theme rounded-full transition"
+            >
+              Contact Us
+            </Link>
 
           {/* Mobile Menu Icon */}
           <div className="xl:hidden mr-1">
