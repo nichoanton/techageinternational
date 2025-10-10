@@ -8,12 +8,17 @@ import {
   FaHeadset,
 } from "react-icons/fa";
 
+import jawaharPhoto from "../assets/ourteam/jawaharPhoto.jpeg";
+import ebenPhoto from "../assets/ourteam/ebenPhoto.jpeg";
+import duraiPhoto from "../assets/ourteam/duraiPhoto.jpeg";
+
 const OurTeam = () => {
   const teamMembers = [
     {
       name: "Jawahar",
       role: "Business Development / Recruiting Coordination",
       icon: FaChartLine,
+      photo: jawaharPhoto,
       responsibilities: [
         "Business Development Activities and Leading Marketing Teams",
         "Client Acquisition and Agreement Execution",
@@ -28,6 +33,7 @@ const OurTeam = () => {
       name: "Eben Jawahar",
       role: "Office Administration & Project Management",
       icon: FaCog,
+      photo: ebenPhoto,
       responsibilities: [
         "Documentation and Agreement Management",
         "Back Office Services and Logistics Coordination",
@@ -42,6 +48,7 @@ const OurTeam = () => {
       name: "Durai Raj",
       role: "Client Coordination & Selection Process",
       icon: FaHeadset,
+      photo: duraiPhoto,
       responsibilities: [
         "Client Coordination for Selection Process",
         "Personal Interview Scheduling and Management",
@@ -96,21 +103,42 @@ const OurTeam = () => {
             return (
               <div
                 key={index}
-                className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full"
+                className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 flex flex-col h-full group"
               >
-                {/* Team Member Header - Fixed Height */}
-                <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-6 border-b border-gray-200 flex-shrink-0">
-                  <div className="flex items-center justify-center mb-4">
-                    <div className="bg-blue-600 p-3 rounded-full">
-                      <IconComponent className="text-2xl text-white" />
+                {/* Team Member Header with Photo */}
+                <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-6 border-b border-gray-200 flex-shrink-0 relative overflow-hidden">
+                  {/* Background Pattern */}
+                  <div className="absolute top-0 right-0 w-20 h-20 bg-blue-600 opacity-5 rounded-full -translate-y-10 translate-x-10"></div>
+                  <div className="absolute bottom-0 left-0 w-16 h-16 bg-orange-600 opacity-5 rounded-full translate-y-8 -translate-x-8"></div>
+
+                  <div className="relative z-10">
+                    {/* Photo Container */}
+                    <div className="flex items-center justify-center mb-4">
+                      <div className="relative">
+                        <div className="w-32 h-32 rounded-full border-4 border-white shadow-lg overflow-hidden group-hover:scale-105 transition-transform duration-300">
+                          <img
+                            src={member.photo}
+                            alt={member.name}
+                            className="w-full h-full object-contain object-center"
+                          />
+                        </div>
+                        {/* Status Indicator */}
+                        <div className="absolute bottom-2 right-2 w-4 h-4 bg-green-500 border-2 border-white rounded-full"></div>
+                      </div>
+                    </div>
+
+                    <h3 className="text-xl font-bold text-gray-900 text-center mb-2">
+                      {member.name}
+                    </h3>
+                    <p className="text-blue-600 text-center font-medium text-sm leading-tight">
+                      {member.role}
+                    </p>
+
+                    {/* Icon Badge */}
+                    <div className="absolute -top-2 -right-2 bg-blue-600 text-white p-2 rounded-full shadow-lg">
+                      <IconComponent className="text-lg" />
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 text-center mb-2">
-                    {member.name}
-                  </h3>
-                  <p className="text-blue-600 text-center font-medium text-sm leading-tight">
-                    {member.role}
-                  </p>
                 </div>
 
                 {/* Responsibilities - Flexible Content Area */}
@@ -121,8 +149,11 @@ const OurTeam = () => {
                   </h4>
                   <ul className="space-y-3 flex-grow">
                     {member.responsibilities.map((responsibility, idx) => (
-                      <li key={idx} className="flex items-start">
-                        <div className="bg-blue-100 p-1 rounded-full mt-1 mr-3 flex-shrink-0">
+                      <li
+                        key={idx}
+                        className="flex items-start group/item hover:bg-blue-50 p-2 rounded-lg transition-colors duration-200"
+                      >
+                        <div className="bg-blue-100 p-1 rounded-full mt-1 mr-3 flex-shrink-0 group-hover/item:bg-blue-200 transition-colors duration-200">
                           <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
                         </div>
                         <span className="text-gray-700 text-sm leading-relaxed">
@@ -136,6 +167,7 @@ const OurTeam = () => {
             );
           })}
         </div>
+
         {/* Team Expertise Section */}
         <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
           <div className="text-center mb-12">
@@ -149,8 +181,8 @@ const OurTeam = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
+            <div className="text-center group">
+              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
                 <FaUserTie className="text-2xl text-blue-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">
@@ -162,8 +194,8 @@ const OurTeam = () => {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
+            <div className="text-center group">
+              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
                 <FaHandshake className="text-2xl text-green-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Client Relations</h3>
@@ -172,8 +204,8 @@ const OurTeam = () => {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
+            <div className="text-center group">
+              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
                 <FaCog className="text-2xl text-orange-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Process Management</h3>
@@ -182,8 +214,8 @@ const OurTeam = () => {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md">
+            <div className="text-center group">
+              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 shadow-md group-hover:shadow-lg group-hover:scale-110 transition-all duration-300">
                 <FaChartLine className="text-2xl text-purple-600" />
               </div>
               <h3 className="text-lg font-semibold mb-2">
@@ -197,18 +229,30 @@ const OurTeam = () => {
         </div>
 
         {/* CTA Section */}
+        {/* CTA Section */}
         <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 md:p-12 text-white">
-            <h2 className="text-3xl font-bold mb-4">
-              Partner With Our Expert Team
-            </h2>
-            <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-              Leverage our team's expertise to find the perfect talent solutions
-              for your organization
-            </p>
-            <button className="button-theme font-semibold px-8 py-3 rounded-full transition duration-300 shadow-lg">
-              Connect With Our Team
-            </button>
+          <div className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-2xl p-8 md:p-12 text-white relative overflow-hidden">
+            {/* Background Pattern */}
+            <div className="absolute inset-0 opacity-10">
+              <div className="absolute top-0 left-0 w-32 h-32 bg-white rounded-full -translate-x-16 -translate-y-16"></div>
+              <div className="absolute bottom-0 right-0 w-32 h-32 bg-white rounded-full translate-x-16 translate-y-16"></div>
+            </div>
+
+            <div className="relative z-10">
+              <h2 className="text-3xl font-bold mb-4">
+                Partner With Our Expert Team
+              </h2>
+              <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+                Leverage our team's expertise to find the perfect talent
+                solutions for your organization
+              </p>
+              <button
+                onClick={() => (window.location.href = "/contactus")}
+                className="px-8 py-3 text-white bg-[#EA580C] shadow-lg hover:bg-[#EA580C] rounded-full font-semibold transition duration-300 hover:shadow-xl transform hover:scale-105"
+              >
+                Connect With Our Team
+              </button>
+            </div>
           </div>
         </div>
       </div>

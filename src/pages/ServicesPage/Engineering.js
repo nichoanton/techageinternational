@@ -30,14 +30,12 @@ const EngineeringIndustries = () => {
           Engineering Industries plays a vital role, especially fabricating
           heavy steel structures like columns and vessels, pipelines and other
           heavy industries like small to large motors, pumps, transformers,
-          automotive, ship building etc., We have diff. graded welders,
-          fabricators, fitters, Riggers, Scaffolders Grinders, Gas Cutters MWF,
+          automotive, ship building etc., We have diff. Graded Welders,
+          Fabricators, Fitters, Riggers, Scaffolders Grinders, Gas Cutters MWF,
           Sand Blasters, Spray Painters etc., in the Technician, Foreman and
           Supervisors categories and Engineers of Design, Estimation,
-          Procurement, Contract, QA&QC Inspectors, Shop/Site Engineers and
-          Superintendents. Tech Age International has wide experience in
-          recruiting these type of Manpower. Our CV bank contains good quality
-          and efficient candidates with a better workman ship.
+          Procurement, Contract, QA & QC Inspectors, Shop/Site Engineers and
+          Superintendents.
         </p>
 
         <div className="space-y-6">

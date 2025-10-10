@@ -28,6 +28,19 @@ import {
   soms,
   texas,
   ues,
+  sunpower,
+  aldana,
+  gpsrategies,
+  dohat,
+  desert,
+  powertech,
+  gps,
+  aljadidi,
+  tasneea,
+  hims,
+  hoficons,
+  majees,
+  wesolutions,
 } from "../assets/companylogos";
 import bgimg from "../assets/bg/linebg.png";
 
@@ -61,6 +74,20 @@ const CompanyLogosCarousel = () => {
     { logo: durian, name: "Durian" },
     { logo: global, name: "Global Remote Integrated Solutions" },
     { logo: cr3, name: "CR3" },
+
+    { logo: sunpower, name: "Sunpower Gen" },
+    { logo: aldana, name: "Al Dana Switchgear" },
+    { logo: gpsrategies, name: "GP Strategies" },
+    { logo: dohat, name: "Dohat Al Khaleej LLC" },
+    { logo: desert, name: "Desert Tiger's United LLC" },
+    { logo: powertech, name: "Powertech Engineering LLC" },
+    { logo: gps, name: "Gulf Petrochemical Services & Trading LLC" },
+    { logo: aljadidi, name: "Al Jadidi Engineering LLC" },
+    { logo: tasneea, name: "Tasneea Oil & Gas Technology LLC" },
+    { logo: hims, name: "HIMS Integrated Services SDN BHD" },
+    { logo: hoficons, name: "Hofincons & Co. LLC (Hofincons Group)" },
+    { logo: majees, name: "Majees Technical Services LLC" },
+    { logo: wesolutions, name: "Workforce Employment Solutions" },
   ];
 
   return (
@@ -73,8 +100,8 @@ const CompanyLogosCarousel = () => {
               Trusted by Industry Leaders
             </h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-              We proudly partner with renowned companies across the globe in oil
-              & gas, engineering, construction, and facility management sectors.
+              We Proudly Recruit for Renowned Companies across the Globe in Oil
+              & Gas, Engineering, Construction, and Facility Management sectors.
             </p>
           </div>
         </div>
@@ -172,22 +199,23 @@ const CompanyLogosCarousel = () => {
         </div>
       </div>
 
-      {/* Custom CSS for Animation */}
+      {/* Custom CSS for Animation - FIXED */}
       <style jsx>{`
         @keyframes scroll {
           0% {
             transform: translateX(0);
           }
           100% {
-            transform: translateX(calc(-48rem * 7));
+            transform: translateX(calc(-50% - 2rem));
           }
         }
         .animate-scroll {
-          animation: scroll 45s linear infinite;
+          animation: scroll 60s linear infinite;
+          width: max-content;
         }
         @media (max-width: 768px) {
           .animate-scroll {
-            animation: scroll 35s linear infinite;
+            animation: scroll 60s linear infinite;
           }
         }
       `}</style>

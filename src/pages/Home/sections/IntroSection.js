@@ -36,11 +36,11 @@ const IntroSection = () => {
           >
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
               <span className="font-semibold text-orange-600">Tech Age</span>{" "}
-              International is a renowned consultancy specializing in manpower
-              recruitment. We are a committed, all-in-one manpower recruitment
-              agency based in India, offering comprehensive services including
-              sourcing, selection, shortlisting, and recruitment for the
-              Engineering, Petrochemical, Oil & Gas, and Offshore industries.
+              International is a Renowned Consultancy specializing in Manpower
+              Recruitment. We are a committed, all-in-one Manpower Recruitment
+              Agency based in India, offering comprehensive services including
+              Sourcing, Selection, Shortlisting, and Recruitment for the
+              Engineering, Petrochemical, Oil & Gas, and Civil Industries.
             </p>
           </motion.div>
 
@@ -72,9 +72,9 @@ const IntroSection = () => {
             <p className="text-lg text-gray-700 leading-relaxed text-justify">
               Our sincere and prompt efforts have allowed us to establish
               ourselves as one of the most dependable and trustworthy
-              organizations in India. We have successfully provided personnel
+              Organizations in India. We have successfully provided personnel
               with various skill levels, including highly skilled, skilled,
-              semi-skilled, and unskilled, across diverse regions.
+              semi-skilled and unskilled, across diverse regions.
             </p>
           </motion.div>
 
@@ -112,7 +112,7 @@ const IntroSection = () => {
               Expert Manpower Deployment
             </h3>
             <p className="text-lg">
-              Delivering skilled workforce for engineering and energy sectors
+              Delivering Skilled Workforce for Engineering and Energy Sectors
             </p>
           </div>
         </motion.div>

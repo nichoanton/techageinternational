@@ -1,4 +1,4 @@
-import oicc from "./oicc.jpg";
+import oicc from "./oicc.png";
 import sts from "./sts.png";
 import aits from "./aits.png";
 import aotc from "./aotc.png";
@@ -26,6 +26,20 @@ import sme from "./sme.jpg";
 import soms from "./soms.jpg";
 import texas from "./texas.png";
 import ues from "./ues.png";
+
+import wesolutions from "./wesolutions.png";
+import majees from "./majees.png"
+import hoficons from "./hoficons.png"
+import hims from "./hims.png"
+import tasneea from "./tasneea.png"
+import aljadidi from "./aljadidi.png"
+import gps from "./gps.png"
+import powertech from "./powertech.png"
+import desert from "./desert.jpg"
+import dohat from "./dohat.png"
+import gpsrategies from "./gpstrategies.jpg"
+import aldana from "./aldana.jpg"
+import sunpower from "./sunpower.png"
 
 export {
   oicc,
@@ -56,4 +70,17 @@ export {
   soms,
   texas,
   ues,
+  wesolutions,
+  majees,
+  hoficons,
+  hims,
+  tasneea,
+  aljadidi,
+  gps,
+  powertech,
+  desert,
+  dohat,
+  gpsrategies,
+  aldana,
+  sunpower
 };

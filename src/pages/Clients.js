@@ -28,6 +28,19 @@ import {
   soms,
   texas,
   ues,
+  wesolutions,
+  majees,
+  hoficons,
+  hims,
+  tasneea,
+  aljadidi,
+  gps,
+  powertech,
+  desert,
+  dohat,
+  gpsrategies,
+  aldana,
+  sunpower,
 } from "../assets/companylogos";
 
 const ClientDetails = () => {
@@ -43,9 +56,20 @@ const ClientDetails = () => {
         logo: oicc,
       },
       {
+        company: "Projects and Maintenance Contracting Division",
+        positions:
+          "Tank Engineer and Superintend / Planners and Schedulers / Estimation Engineers and Unit In charge",
+        positions2:
+          "Quantity Surveyor – Mechanical/Civil / Permit Holders Civil/Mechanical / Sr. Welding Engineers / QAQC- Engineers & Inspectors for Electrical / Instrumentation / Civil, Welding / Piping Foreman and Piping Supervisors",
+        logo: sts,
+        region: "Bahrain/Kuwait/Abu Dhabi",
+      },
+      {
         company: "Arabian Industries Technical Support LLC",
         positions:
-          "Mechanical Engineers / Planning Engineers / Lead Planning Engineers / TA Planners / Schedulers / Lifting Engineers/Supervisors / Project Engineers / Quantity Surveyor – Mechanical and Civil / Contract Engineer / Admin Executive / Accountant / QA/QC Engineers, Inspectors / Machinist / Permit Holders and Receiver / ISO Valve Technician / CV Technician / Asst. Valve Tech / Electrical and Instrument Technician / Project Managers / Tank Engineers / HSE Manager",
+          "Mechanical Engineers / Planning Engineers / Lead Planning Engineers / TA Planners / Schedulers / Lifting Engineers/Supervisors / Project Engineers",
+        positions2:
+          "Quantity Surveyor – Mechanical and Civil / Contract Engineer / Admin Executive / Accountant / QA/QC Engineers, Inspectors / Machinist / Permit Holders and Receiver / ISO Valve Technician / CV Technician / Asst. Valve Tech / Electrical and Instrument Technician / Project Managers / Tank Engineers / HSE Manager",
         logo: aits,
       },
       {
@@ -123,6 +147,54 @@ const ClientDetails = () => {
         positions: "Spray Painter, Blaster",
         logo: izz,
       },
+      {
+        company: "Dohat Al Khaleej LLC",
+        positions:
+          "PDO Contractors. Engineers, Accounting professionals, Civil & Mechanical Labours",
+        logo: dohat,
+      },
+      {
+        company: "Desert Tiger's United LLC",
+        positions:
+          "Electrical construction and maintenance of HV substation, Overhead lines and Industrial Electrical Works - Linemen, Electricians, Electrical Technicians, Electrician Foreman, Lineman Foreman & Electrical Engineers",
+        logo: desert,
+      },
+      {
+        company: "Powertech Engineering LLC",
+        positions:
+          "PDO Electrical Projects Contractors. QAQC- Engineers & Inspectors for Electrical / Instrumentation / Civil / Welding, HSE Professionals",
+        logo: powertech,
+      },
+      {
+        company: "Gulf Petrochemical Services & Trading LLC",
+        positions:
+          "QAQC Division. QAQC- Engineers & Inspectors for Electrical / Instrumentation / Civil / Welding",
+        logo: gps,
+      },
+      {
+        company: "Al Jadidi Engineering LLC",
+        positions:
+          "Lineman, Electricians, Electrical Technicians, Electrician Foreman, Lineman Foreman & Electrical Engineers",
+        logo: aljadidi,
+      },
+      {
+        company: "Tasneea Oil & Gas Technology LLC",
+        positions:
+          "Mechanical Technician, Valve Technician, Rig Mechanic, Technician for CNC/Workshop Machine, Welders, Fabricators and Grinders",
+        logo: tasneea,
+      },
+      {
+        company: "Hofincons & Co. LLC (Hofincons Group)",
+        positions:
+          "Asset Integrity Engineers, Material Cataloguing Engineers, Material Inspection Engineers, QAQC Engineers and Supervisors",
+        logo: hoficons,
+      },
+      {
+        company: "Majees Technical Services LLC",
+        positions:
+          "Welders, Fitter, Fabricators, Riggers, Rigger Helpers, DSS Welders, Plasma Cutters & Mechanical Technicians",
+        logo: majees,
+      },
     ],
     UAE: [
       {
@@ -172,6 +244,20 @@ const ClientDetails = () => {
           "QC Engieers and Inspectors / 6G Tig and Arc Welders and Fabricators",
         logo: global,
       },
+
+      {
+        company: "Arabian Industries Technical Support LLC",
+        positions:
+          "Mechanical Engineers / Planning Engineers / Lead Planning Engineers / TA Planners / Schedulers / Lifting Engineers/Supervisors / Project Engineers / Quantity Surveyor – Mechanical and Civil / Contract Engineer / Admin Executive / Accountant / QA/QC Engineers, Inspectors / Machinist / Permit Holders and Receiver / ISO Valve Technician / CV Technician / Asst. Valve Tech / Electrical and Instrument Technician / Project Managers / Tank Engineers / HSE Manager",
+        logo: aits,
+        region: "Oman/Abu Dhabi",
+      },
+      {
+        company: "Sun Power Gen",
+        positions:
+          "Hydraulic Engineer, Chemical Engineer, Mechanical Engineer, Inspection Engineer, Sr. Cylinder Technician, Skilled Cylinder Technician, Hydraulic Technician, Workshop Supervisor, Machinist, Welder, Aluminum Mig Welder, Fabricators",
+        logo: sunpower,
+      },
     ],
     Qatar: [
       {
@@ -187,26 +273,16 @@ const ClientDetails = () => {
         logo: debaj,
       },
       {
-        company: "DCC",
+        company: "CDC",
         positions:
           "Onshore and Offshore Civil Structural Engineer / Head Inspection / Head Reliability / Sr. budget & Recovery controller / Cargo Movement controller / Opp. Support Engg / RBI Technician & Engineer / Technical Risk Coordinator / Planning & scheduling / Sr. Electrical Engineer / Static & Rotating Equipment Technician and Engr / Buyer / Contract Analyst / Corrosion Engineer / Material Controller Warehouse / Material Expediter / Planner / Planner systems_Cost control / Planning Technician / Scheduler / Technical Clerk / Field Operator / Housekeeping Helper / Hvac Technician / Electrical, Mechanical and Instrument Technician and Helpers / Site Driver / 6G Tig and Arc Welders / Fabricators / Scafollders / Riggers / Fabrication Supervisor / Machinist",
         logo: dcc,
       },
-    ],
-    "Multi-Country": [
       {
-        company: "Projects and Maintenance Contracting Division",
+        company: "Al Dana Switchgear",
         positions:
-          "Tank Engineer and Superintend / Planners and Schedulers / Estimation Engineers and Unit In charge / Quantity Surveyor – Mechanical/Civil / Permit Holders Civil/Mechanical / Sr. Welding Engineers / QAQC- Engineers & Inspectors for Electrical / Instrumentation / Civil, Welding / Piping Foreman and Piping Supervisors",
-        logo: sts,
-        region: "Oman/Bahrain/Kuwait/Abu Dhabi",
-      },
-      {
-        company: "Arabian Industries Technical Support LLC",
-        positions:
-          "Mechanical Engineers / Planning Engineers / Lead Planning Engineers / TA Planners / Schedulers / Lifting Engineers/Supervisors / Project Engineers / Quantity Surveyor – Mechanical and Civil / Contract Engineer / Admin Executive / Accountant / QA/QC Engineers, Inspectors / Machinist / Permit Holders and Receiver / ISO Valve Technician / CV Technician / Asst. Valve Tech / Electrical and Instrument Technician / Project Managers / Tank Engineers / HSE Manager",
-        logo: aits,
-        region: "Oman/Abu Dhabi",
+          "Manufacturing of LV Switchgear, MCC, SMDB, DB, ATS VFD & Control panels, Electrical Design Engr., Electrical Estimation Engr., Mechanical Design Engr., Mechanical Draftsman, Electrical Technician",
+        logo: aldana,
       },
     ],
     Malaysia: [
@@ -215,6 +291,25 @@ const ClientDetails = () => {
         positions:
           "TA Mechanical Supervisor / TA Planner / TA Scheduler Planning Engineer and Coordinator",
         logo: cr3,
+      },
+      {
+        company: "HIMS Integrated Services SDN BHD",
+        positions:
+          "TA Mechanical Supervisors, TA Planners, TA Scheduler, Planning Engineers and Coordinators",
+        logo: hims,
+      },
+    ],
+    "United Kingdom": [
+      {
+        company: "GP Strategies",
+        positions:
+          "Project : Kuwait National Petroleum Company (KNPC) Technical Training Specialist /Document Developer and Trainer for oil Refinery Operation",
+        logo: gpsrategies,
+      },
+      {
+        company: "Workforce Employment Solutions",
+        positions: "Nurses, Care Taker",
+        logo: wesolutions,
       },
     ],
   };
@@ -226,7 +321,7 @@ const ClientDetails = () => {
     activeCountry === "all" ? allClients : clientsByCountry[activeCountry];
 
   const CountryFilter = () => (
-    <div className="flex flex-wrap justify-center gap-2 mb-8">
+    <div className="flex flex-wrap justify-center gap-2 mb-6">
       <button
         onClick={() => setActiveCountry("all")}
         className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
@@ -247,18 +342,16 @@ const ClientDetails = () => {
               : "bg-white text-gray-700 border border-gray-300 hover:bg-gray-50"
           }`}
         >
-          {country}{" "}
-          {country !== "Multi-Country" &&
-            `(${clientsByCountry[country].length})`}
+          {country}
         </button>
       ))}
     </div>
   );
 
   const ClientCard = ({ client, country }) => (
-    <div className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
+    <div className="bg-white rounded-xl border border-gray-200 p-2 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
       <div className="flex items-start gap-4 mb-4">
-        <div className="flex-shrink-0 w-16 h-16 bg-white rounded-lg border border-gray-300 flex items-center justify-center p-2">
+        <div className="flex-shrink-0 w-28 h-28 bg-white rounded-lg border border-gray-300 flex items-center justify-center p-0.5">
           <img
             src={client.logo}
             alt={`${client.company} Logo`}
@@ -283,12 +376,12 @@ const ClientDetails = () => {
         </div>
       </div>
 
-      <div className="bg-gray-50 rounded-lg px-4 py-3 flex-1">
+      <div className="bg-gray-50 rounded-lg px-4 py-1 flex-1">
         <h4 className="text-sm font-semibold text-gray-800 mb-2">
           Open Positions:
         </h4>
         <p className="text-sm text-gray-700 leading-relaxed">
-          {client.positions}
+          {client.positions} <br /> {client.positions2}
         </p>
       </div>
     </div>
@@ -311,7 +404,7 @@ const ClientDetails = () => {
       </div>
 
       {/* Content Section */}
-      <div className="container mx-auto py-12 px-4">
+      <div className="container mx-auto py-6 px-4">
         <CountryFilter />
 
         {/* Client Grid */}

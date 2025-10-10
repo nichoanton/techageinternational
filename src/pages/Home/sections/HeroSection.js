@@ -23,7 +23,7 @@ const HeroSection = () => {
 
             {/* Subheading */}
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
-              Connecting talent with opportunity
+              Connecting Talent with Opportunity
             </p>
 
             {/* CTA button */}

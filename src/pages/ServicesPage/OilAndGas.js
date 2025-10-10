@@ -36,15 +36,20 @@ const OilAndGas = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               UPSTREAM OPERATIONS
             </h4>
-            <p className="text-gray-700 leading-relaxed mb-6 text-justify">
-              The crude excavated from the well head has to undergo preliminary
-              process units to separate oil from water and natural gas. This
-              process consists of three phase separators, gas handling units,
-              sour water treatment unit, and sulphur recovery units and OM&S.
-              Tech Age have a good network to source the Candidates across the
-              country of Field operators, CRO, Engineers, Supdt. on process side
-              and Technicians, Supervisors and other Higher Positions in
-              Maintenance side.
+            <p className="text-gray-700 leading-relaxed mb-6 text-justify space-y-4">
+              <span className="block">
+                The crude excavated from the well head has to undergo
+                preliminary process units to separate oil from water and natural
+                gas. This process consists of three phase separators, gas
+                handling units, sour water treatment unit, and sulphur recovery
+                units and OM&S.
+              </span>
+              <span className="block">
+                Tech Age have a good network to source the Candidates across the
+                country of Field operators, CRO, Engineers, Supdt. on process
+                side and Technicians, Supervisors and other Higher Positions in
+                Maintenance side.
+              </span>
             </p>
           </div>
 
@@ -52,18 +57,23 @@ const OilAndGas = () => {
             <h4 className="text-xl font-semibold text-gray-800 mb-3">
               DOWNSTREAM - REFINERY AND PROCESS
             </h4>
-            <p className="text-gray-700 leading-relaxed text-justify">
-              The crude oil is processed in the refineries to get further
-              products with required specification in various processing plants
-              with diff. technologies. Consisting CDU, VDU, FCCU, LEB, OHU, HGU,
-              Wax plant, SRU, Asphalt units, residue and delayed Coker units,
-              Power Generation, WTP like Desalination (Sea Water), ETP, CWT, To
-              operate these plants we can recruit Field Operators, CROs,
-              Engineers, Supdts., and on the Maint. Part Technicians, Engineers
-              for E&I., Static, Rotary, Fabrication, Instrument sections and
-              Managers for each sections. Apart from these other supportive
-              departments such as Inspection, technical services, Process
-              Engineering, Fire & Safety
+            <p className="text-gray-700 leading-relaxed text-justify  space-y-4">
+              <span className="block">
+                The crude oil is processed in the refineries to get further
+                products with required specification in various processing
+                plants with diff. technologies. Consisting CDU, VDU, FCCU, LEB,
+                OHU, HGU, Wax plant, SRU, Asphalt units, residue and delayed
+                Coker units, Power Generation, WTP like Desalination (Sea
+                Water), ETP, CWT.
+              </span>
+              <span className="block">
+                To operate these plants we can recruit Field Operators, CROs,
+                Engineers, Supdts., and on the Maint. Part Technicians,
+                Engineers for E&I., Static, Rotary, Fabrication, Instrument
+                sections and Managers for each sections. Apart from these other
+                supportive departments such as Inspection, technical services,
+                Process Engineering, Fire & Safety
+              </span>
             </p>
           </div>
 

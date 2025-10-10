@@ -1,4 +1,10 @@
-import { FaCheckCircle, FaUsers, FaHandshake, FaAward, FaDatabase } from "react-icons/fa";
+import {
+  FaCheckCircle,
+  FaUsers,
+  FaHandshake,
+  FaAward,
+  FaDatabase,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import about from "../assets/aboutus/about1.jpg";
 import about2 from "../assets/aboutus/about2.jpg";
@@ -27,14 +33,23 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              About <span className="text-orange-600">Tech Age International</span>
+              About{" "}
+              <span className="text-orange-600">Tech Age International</span>
             </h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
               <p className="text-lg">
-                <strong>Tech Age International</strong> having its Regd., Office at Chennai / India with the approval from the PGE, Ministry of External Affairs, Govt. of India, led by a Team of Technocrats from different fields and as a Service Provider rendering a unique performance with high quality delivery to meet out all the Manpower Requirements of Our Clients to their utmost satisfaction.
+                <strong>Tech Age International</strong> having its Regd., Office
+                at Chennai / India with the approval from the PGE, Ministry of
+                External Affairs, Govt. of India, led by a Team of Technocrats
+                from different fields and as a Service Provider rendering a
+                unique performance with high quality delivery to meet out all
+                the Manpower Requirements of Our Clients to their utmost
+                satisfaction.
               </p>
               <p className="text-lg">
-                We have well established office with technically qualified and experienced Staff Team to handle sourcing and screening of Candidates as per the Client requirements.
+                We have well established office with technically qualified and
+                experienced Staff Team to handle sourcing and screening of
+                Candidates as per the Client requirements.
               </p>
             </div>
           </div>
@@ -70,20 +85,24 @@ const AboutUs = () => {
                 Our Business Philosophy
               </h2>
             </div>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
+            <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
               <p className="text-lg">
-                Quality service with time bounded delivery and continual improvement in updating modern technique in the field of International Recruitment Services and to have a good business relationship with our Clients with mutual growth and benefits.
+                Quality service with time bounded delivery and continual
+                improvement in updating modern technique in the field of
+                International Recruitment Services and to have a good business
+                relationship with our Clients with mutual growth and benefits.
               </p>
               <p className="text-lg">
-                Understanding the manpower Requirements from right perspective and to fulfill the expectations of the Clients to their utmost satisfactory level and shoulders all the responsibilities as a Service Provider.
+                Understanding the Manpower Requirements from right perspective
+                and to fulfill the expectations of the Clients to their utmost
+                satisfactory level and shoulders all the responsibilities as a
+                Service Provider.
               </p>
             </div>
           </div>
         </div>
 
-
         <VisionMissionSection />
-
 
         {/* Quality Policy */}
         <div className="bg-gray-50 rounded-2xl p-2 md:p-8 mb-10">
@@ -97,14 +116,19 @@ const AboutUs = () => {
               Our Quality Policy
             </h2>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Tech Age never compromise to deviate from its quality policy and try to fulfill the requirements to the utmost satisfaction of the Client. Tech Age assures to provide a quality services in all aspects applying best business ethics with their client to gain and to establish a better name in this business field and to have a mutual business growth and benefits.
+              <p className="text-lg text-gray-700 leading-relaxed text-justify">
+                Tech Age never compromise to deviate from its quality policy and
+                assures to provide a quality services in all aspects applying
+                best business ethics with their client and to have a mutual
+                business growth and benefits.
               </p>
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="font-semibold text-lg text-gray-900 mb-3">Our Commitment</h3>
+                <h3 className="font-semibold text-lg text-gray-900 mb-3">
+                  Our Commitment
+                </h3>
                 <ul className="space-y-2">
                   <li className="flex items-center">
                     <FaCheckCircle className="text-green-500 mr-3" />
@@ -121,14 +145,20 @@ const AboutUs = () => {
                 </ul>
               </div>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-md">
               <div className="flex items-center mb-4">
                 <FaDatabase className="text-2xl text-blue-600 mr-3" />
-                <h3 className="text-xl font-bold text-gray-900">Extensive Talent Database</h3>
+                <h3 className="text-xl font-bold text-gray-900">
+                  Extensive Talent Database
+                </h3>
               </div>
-              <p className="text-gray-700 mb-4">
-                We have adequate database of interested candidates in each field for different positions. Apart from this, we've network with various portals and we have a very vast network across the country from which we derive the best talented and well groomed candidates to suit your requirement.
+              <p className="text-gray-700 mb-4 text-justify">
+                We have adequate database of interested candidates in each field
+                for different positions. Apart from this, we've network with
+                various portals and we have a very vast network across the
+                country from which we derive the best talented and well groomed
+                candidates to suit your requirement.
               </p>
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="bg-blue-50 p-4 rounded-lg">
@@ -154,29 +184,35 @@ const AboutUs = () => {
               <div className="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
                 <FaUsers className="text-blue-600 text-xl" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Technical Recruitment</h3>
+              <h3 className="text-xl font-semibold mb-3">
+                Technical Recruitment
+              </h3>
               <p className="text-gray-600">
-                Specialized in sourcing technical professionals across various industries like Engineering and Manufacturing.
+                Specialized in sourcing technical professionals across various
+                industries like Oil & Gas, Engineering, Construction and
+                Manufacturing.
               </p>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-orange-500">
               <div className="bg-orange-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
                 <FaHandshake className="text-orange-600 text-xl" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Executive Search</h3>
               <p className="text-gray-600">
-                Identifying and placing senior-level executives and leadership talent for multinational corporations.
+                Identifying and placing senior-level executives and leadership
+                talent for multinational corporations.
               </p>
             </div>
-            
+
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-green-500">
               <div className="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4 mx-auto">
                 <FaAward className="text-green-600 text-xl" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Quality Assurance</h3>
               <p className="text-gray-600">
-                Rigorous screening and verification processes to ensure candidate quality and fit.
+                Rigorous screening and verification processes to ensure
+                candidate quality and fit.
               </p>
             </div>
           </div>
@@ -188,7 +224,9 @@ const AboutUs = () => {
             Ready to Find Your Ideal Candidates?
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Partner with Tech Age International for comprehensive manpower solutions and recruitment services tailored to your organizational needs.
+            Partner with Tech Age International for comprehensive Manpower
+            Solutions and Recruitment Services tailored to your Organizational
+            needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
