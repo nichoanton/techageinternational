@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import bgImg from "../../../assets/bg/bg.png";
 import mobileBgImg from "../../../assets/bg/bg_mob.png"; // Optional: different image for mobile
 
@@ -36,12 +37,12 @@ const HeroSection = () => {
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 leading-relaxed mb-8 max-w-2xl mx-auto md:mx-0">
               Connecting Talent with Opportunity
             </p>
-            <a
-              href="/services"
+            <Link
+              to="/services"
               className="inline-block px-6 py-3 sm:px-8 sm:py-4 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition duration-300 shadow-lg hover:shadow-xl text-base sm:text-lg mx-auto md:mx-0"
             >
               Explore Services
-            </a>
+            </Link>
           </div>
         </div>
       </div>
