@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   return (
-     <div className="mx-auto container">
+     <div className="mx-auto">
       <ScrollToTop />
       <TopBar isVisible={isTopBarVisible} />
       <Navbar isTopBarVisible={isTopBarVisible} />

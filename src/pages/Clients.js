@@ -404,7 +404,7 @@ const ClientDetails = () => {
       </div>
 
       {/* Content Section */}
-      <div className="container mx-auto py-6 px-4">
+      <div className="mx-auto py-6 px-4">
         <CountryFilter />
 
         {/* Client Grid */}

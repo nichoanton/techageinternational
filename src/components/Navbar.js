@@ -229,6 +229,13 @@ const Navbar = ({ isTopBarVisible }) => {
               client Details
             </NavLink>
             <NavLink
+              to="/rainformation"
+              className="block px-6 py-3 text-[black] hover:text-[#EA580C]"
+              onClick={toggleMobileMenu}
+            >
+              RA Information
+            </NavLink>
+            <NavLink
               to="/contactus"
               className="block px-6 py-3 text-white bg-[#EA580C] shadow-lg hover:bg-[#EA580C]"
               onClick={toggleMobileMenu}

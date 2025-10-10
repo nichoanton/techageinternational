@@ -23,7 +23,7 @@ const Services = () => {
       </div>
 
       {/* Main Content Section */}
-      <div className="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content - 2/3 Column */}
           <div className="lg:col-span-2">

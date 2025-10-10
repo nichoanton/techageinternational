@@ -6,7 +6,7 @@ import CompanyLogosCarousel from "../../components/CompanyLogosCarousel";
 const Home = () => {
   return (
     <div>
-      <div className="pt-16" style={{ fontFamily: "Baskervville, sans-serif" }}>
+      <div style={{ fontFamily: "Baskervville, sans-serif" }}>
         <HeroSection />
         <CompanyLogosCarousel />
         <IntroSection />
