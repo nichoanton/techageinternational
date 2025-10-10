@@ -49,7 +49,7 @@ const Navbar = ({ isTopBarVisible }) => {
                 className="h-12 md:h-16 w-auto"
                 loading="lazy"
               />
-              <p className="text-xl md:text-xl font-serif font-bold text-[black] whitespace-nowrap">
+              <p className="text-base md:text-xl font-serif font-bold text-[black] whitespace-nowrap">
                 TECH AGE INTERNATIONAL
               </p>
             </NavLink>
