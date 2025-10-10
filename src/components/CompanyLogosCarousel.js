@@ -91,7 +91,7 @@ const CompanyLogosCarousel = () => {
   ];
 
   return (
-    <section className="py-1 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-1 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
       <div className="mx-auto">
         {/* Section Header */}
         <div className="text-center mb-8 py-8 bg-gradient-to-r from-orange-500 to-orange-500 shadow-xl">

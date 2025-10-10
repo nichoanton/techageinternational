@@ -9,7 +9,7 @@ const IntroSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, threshold: 0.1 });
   return (
-    <section ref={ref} className="py-16 px-4 bg-white">
+    <section ref={ref} className="py-16 px-4 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <motion.div
